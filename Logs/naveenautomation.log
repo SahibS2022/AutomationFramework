@@ -1,0 +1,1147 @@
+2023-01-12 23:19:08 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:19:21 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:19:21 INFO  CustomListener:17 - Test execution has started for : VerifyUserIsAbleToSignUpSuccessFully
+2023-01-12 23:19:21 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:19:22 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:19:22 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (8a9767a2d12370d448ed1605fe516a44)] -> css selector: a[title='My Account']]
+2023-01-12 23:19:22 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (8a9767a2d12370d448ed1605fe516a44)] -> css selector: a[title='My Account']]
+2023-01-12 23:19:22 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Register']
+2023-01-12 23:19:22 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Register']
+2023-01-12 23:19:22 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (8a9767a2d12370d448ed1605fe516a44)] -> xpath: //a[text()='Register']]
+2023-01-12 23:19:24 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (8a9767a2d12370d448ed1605fe516a44)] -> xpath: //a[text()='Register']]
+2023-01-12 23:19:25 INFO  WebdriverEvents:90 - Finding elementBy.id: input-firstname
+2023-01-12 23:19:25 INFO  WebdriverEvents:96 - Element FoundBy.id: input-firstname
+2023-01-12 23:19:26 INFO  WebdriverEvents:90 - Finding elementBy.id: input-lastname
+2023-01-12 23:19:26 INFO  WebdriverEvents:96 - Element FoundBy.id: input-lastname
+2023-01-12 23:19:26 INFO  WebdriverEvents:90 - Finding elementBy.id: input-email
+2023-01-12 23:19:26 INFO  WebdriverEvents:96 - Element FoundBy.id: input-email
+2023-01-12 23:19:26 INFO  WebdriverEvents:90 - Finding elementBy.id: input-telephone
+2023-01-12 23:19:26 INFO  WebdriverEvents:96 - Element FoundBy.id: input-telephone
+2023-01-12 23:19:27 INFO  WebdriverEvents:90 - Finding elementBy.id: input-password
+2023-01-12 23:19:27 INFO  WebdriverEvents:96 - Element FoundBy.id: input-password
+2023-01-12 23:19:27 INFO  WebdriverEvents:90 - Finding elementBy.id: input-confirm
+2023-01-12 23:19:27 INFO  WebdriverEvents:96 - Element FoundBy.id: input-confirm
+2023-01-12 23:19:27 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //input[@type='checkbox']
+2023-01-12 23:19:27 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //input[@type='checkbox']
+2023-01-12 23:19:27 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (8a9767a2d12370d448ed1605fe516a44)] -> xpath: //input[@type='checkbox']]
+2023-01-12 23:19:28 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (8a9767a2d12370d448ed1605fe516a44)] -> xpath: //input[@type='checkbox']]
+2023-01-12 23:19:28 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //input[@type='submit']
+2023-01-12 23:19:28 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //input[@type='submit']
+2023-01-12 23:19:29 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #content h1
+2023-01-12 23:19:29 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #content h1
+2023-01-12 23:19:29 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (8a9767a2d12370d448ed1605fe516a44)] -> css selector: #content h1]
+2023-01-12 23:19:29 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (8a9767a2d12370d448ed1605fe516a44)] -> css selector: #content h1]
+2023-01-12 23:19:29 INFO  RetryFailedTests:19 - Running a failed test 1 times
+2023-01-12 23:19:29 INFO  CustomListener:35 - Test execution has skipped for : VerifyUserIsAbleToSignUpSuccessFully
+2023-01-12 23:19:37 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:19:44 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:19:44 INFO  CustomListener:17 - Test execution has started for : VerifyUserIsAbleToSignUpSuccessFully
+2023-01-12 23:19:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:19:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:19:44 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (8926d73b9aeb2084bd46cb68ab8cb817)] -> css selector: a[title='My Account']]
+2023-01-12 23:19:44 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (8926d73b9aeb2084bd46cb68ab8cb817)] -> css selector: a[title='My Account']]
+2023-01-12 23:19:44 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Register']
+2023-01-12 23:19:44 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Register']
+2023-01-12 23:19:44 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (8926d73b9aeb2084bd46cb68ab8cb817)] -> xpath: //a[text()='Register']]
+2023-01-12 23:19:49 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (8926d73b9aeb2084bd46cb68ab8cb817)] -> xpath: //a[text()='Register']]
+2023-01-12 23:19:49 INFO  WebdriverEvents:90 - Finding elementBy.id: input-firstname
+2023-01-12 23:19:49 INFO  WebdriverEvents:96 - Element FoundBy.id: input-firstname
+2023-01-12 23:19:49 INFO  WebdriverEvents:90 - Finding elementBy.id: input-lastname
+2023-01-12 23:19:49 INFO  WebdriverEvents:96 - Element FoundBy.id: input-lastname
+2023-01-12 23:19:49 INFO  WebdriverEvents:90 - Finding elementBy.id: input-email
+2023-01-12 23:19:49 INFO  WebdriverEvents:96 - Element FoundBy.id: input-email
+2023-01-12 23:19:50 INFO  WebdriverEvents:90 - Finding elementBy.id: input-telephone
+2023-01-12 23:19:50 INFO  WebdriverEvents:96 - Element FoundBy.id: input-telephone
+2023-01-12 23:19:50 INFO  WebdriverEvents:90 - Finding elementBy.id: input-password
+2023-01-12 23:19:50 INFO  WebdriverEvents:96 - Element FoundBy.id: input-password
+2023-01-12 23:19:50 INFO  WebdriverEvents:90 - Finding elementBy.id: input-confirm
+2023-01-12 23:19:50 INFO  WebdriverEvents:96 - Element FoundBy.id: input-confirm
+2023-01-12 23:19:50 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //input[@type='checkbox']
+2023-01-12 23:19:50 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //input[@type='checkbox']
+2023-01-12 23:19:50 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (8926d73b9aeb2084bd46cb68ab8cb817)] -> xpath: //input[@type='checkbox']]
+2023-01-12 23:19:50 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (8926d73b9aeb2084bd46cb68ab8cb817)] -> xpath: //input[@type='checkbox']]
+2023-01-12 23:19:50 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //input[@type='submit']
+2023-01-12 23:19:50 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //input[@type='submit']
+2023-01-12 23:19:51 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #content h1
+2023-01-12 23:19:51 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #content h1
+2023-01-12 23:19:51 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (8926d73b9aeb2084bd46cb68ab8cb817)] -> css selector: #content h1]
+2023-01-12 23:19:51 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (8926d73b9aeb2084bd46cb68ab8cb817)] -> css selector: #content h1]
+2023-01-12 23:19:51 INFO  RetryFailedTests:19 - Running a failed test 2 times
+2023-01-12 23:19:51 INFO  CustomListener:35 - Test execution has skipped for : VerifyUserIsAbleToSignUpSuccessFully
+2023-01-12 23:19:55 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:20:01 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:20:01 INFO  CustomListener:17 - Test execution has started for : VerifyUserIsAbleToSignUpSuccessFully
+2023-01-12 23:20:01 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:20:01 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:20:01 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (0f5ee703f92963f7ba051939012d3ddb)] -> css selector: a[title='My Account']]
+2023-01-12 23:20:02 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (0f5ee703f92963f7ba051939012d3ddb)] -> css selector: a[title='My Account']]
+2023-01-12 23:20:02 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Register']
+2023-01-12 23:20:02 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Register']
+2023-01-12 23:20:02 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (0f5ee703f92963f7ba051939012d3ddb)] -> xpath: //a[text()='Register']]
+2023-01-12 23:20:03 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (0f5ee703f92963f7ba051939012d3ddb)] -> xpath: //a[text()='Register']]
+2023-01-12 23:20:03 INFO  WebdriverEvents:90 - Finding elementBy.id: input-firstname
+2023-01-12 23:20:03 INFO  WebdriverEvents:96 - Element FoundBy.id: input-firstname
+2023-01-12 23:20:03 INFO  WebdriverEvents:90 - Finding elementBy.id: input-lastname
+2023-01-12 23:20:04 INFO  WebdriverEvents:96 - Element FoundBy.id: input-lastname
+2023-01-12 23:20:04 INFO  WebdriverEvents:90 - Finding elementBy.id: input-email
+2023-01-12 23:20:04 INFO  WebdriverEvents:96 - Element FoundBy.id: input-email
+2023-01-12 23:20:04 INFO  WebdriverEvents:90 - Finding elementBy.id: input-telephone
+2023-01-12 23:20:04 INFO  WebdriverEvents:96 - Element FoundBy.id: input-telephone
+2023-01-12 23:20:04 INFO  WebdriverEvents:90 - Finding elementBy.id: input-password
+2023-01-12 23:20:04 INFO  WebdriverEvents:96 - Element FoundBy.id: input-password
+2023-01-12 23:20:05 INFO  WebdriverEvents:90 - Finding elementBy.id: input-confirm
+2023-01-12 23:20:05 INFO  WebdriverEvents:96 - Element FoundBy.id: input-confirm
+2023-01-12 23:20:05 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //input[@type='checkbox']
+2023-01-12 23:20:05 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //input[@type='checkbox']
+2023-01-12 23:20:05 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (0f5ee703f92963f7ba051939012d3ddb)] -> xpath: //input[@type='checkbox']]
+2023-01-12 23:20:05 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (0f5ee703f92963f7ba051939012d3ddb)] -> xpath: //input[@type='checkbox']]
+2023-01-12 23:20:05 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //input[@type='submit']
+2023-01-12 23:20:05 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //input[@type='submit']
+2023-01-12 23:20:07 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #content h1
+2023-01-12 23:20:07 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #content h1
+2023-01-12 23:20:07 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (0f5ee703f92963f7ba051939012d3ddb)] -> css selector: #content h1]
+2023-01-12 23:20:07 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (0f5ee703f92963f7ba051939012d3ddb)] -> css selector: #content h1]
+2023-01-12 23:20:07 ERROR CustomListener:28 - Test execution failed and taking screen shot: VerifyUserIsAbleToSignUpSuccessFully
+2023-01-12 23:20:10 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:20:18 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:20:18 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:20:18 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:20:18 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (09f976f2dc0097a91a0fa114a9d3d4d8)] -> css selector: a[title='My Account']]
+2023-01-12 23:20:18 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (09f976f2dc0097a91a0fa114a9d3d4d8)] -> css selector: a[title='My Account']]
+2023-01-12 23:20:18 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Login']
+2023-01-12 23:20:18 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Login']
+2023-01-12 23:20:18 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (09f976f2dc0097a91a0fa114a9d3d4d8)] -> xpath: //a[text()='Login']]
+2023-01-12 23:20:19 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (09f976f2dc0097a91a0fa114a9d3d4d8)] -> xpath: //a[text()='Login']]
+2023-01-12 23:20:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:20:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:20:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:20:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:20:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:20:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:20:21 INFO  CustomListener:17 - Test execution has started for : verifyUserIsAbleToLoginSuccessfully
+2023-01-12 23:20:21 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //h2[text()='My Account']
+2023-01-12 23:20:21 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //h2[text()='My Account']
+2023-01-12 23:20:21 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (09f976f2dc0097a91a0fa114a9d3d4d8)] -> xpath: //h2[text()='My Account']]
+2023-01-12 23:20:22 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (09f976f2dc0097a91a0fa114a9d3d4d8)] -> xpath: //h2[text()='My Account']]
+2023-01-12 23:20:22 INFO  CustomListener:22 - Test execution has passed for : verifyUserIsAbleToLoginSuccessfully
+2023-01-12 23:20:25 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:20:34 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:20:34 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:20:35 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:20:35 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (9a1e849c12d7fb32c78af78289a9a220)] -> css selector: a[title='My Account']]
+2023-01-12 23:20:35 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (9a1e849c12d7fb32c78af78289a9a220)] -> css selector: a[title='My Account']]
+2023-01-12 23:20:35 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Login']
+2023-01-12 23:20:35 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Login']
+2023-01-12 23:20:35 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (9a1e849c12d7fb32c78af78289a9a220)] -> xpath: //a[text()='Login']]
+2023-01-12 23:20:36 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (9a1e849c12d7fb32c78af78289a9a220)] -> xpath: //a[text()='Login']]
+2023-01-12 23:20:36 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:20:36 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:20:36 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:20:36 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:20:36 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:20:36 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:20:45 INFO  CustomListener:17 - Test execution has started for : verifyUserIsAbleToUpdateTelephoneSuccessfully
+2023-01-12 23:20:45 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Edit your account information']
+2023-01-12 23:20:45 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Edit your account information']
+2023-01-12 23:20:45 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (9a1e849c12d7fb32c78af78289a9a220)] -> xpath: //a[text()='Edit your account information']]
+2023-01-12 23:20:47 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (9a1e849c12d7fb32c78af78289a9a220)] -> xpath: //a[text()='Edit your account information']]
+2023-01-12 23:20:47 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[name='telephone']
+2023-01-12 23:20:47 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[name='telephone']
+2023-01-12 23:20:47 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[name='telephone']
+2023-01-12 23:20:47 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[name='telephone']
+2023-01-12 23:20:47 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[value='Continue']
+2023-01-12 23:20:47 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[value='Continue']
+2023-01-12 23:20:48 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 23:20:48 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.alert-success
+2023-01-12 23:20:48 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (9a1e849c12d7fb32c78af78289a9a220)] -> css selector: div.alert-success]
+2023-01-12 23:20:48 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (9a1e849c12d7fb32c78af78289a9a220)] -> css selector: div.alert-success]
+2023-01-12 23:20:48 INFO  CustomListener:22 - Test execution has passed for : verifyUserIsAbleToUpdateTelephoneSuccessfully
+2023-01-12 23:20:51 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:20:57 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:20:57 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:20:57 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:20:57 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (860ea763ef6831111d9ca5f64769b8b3)] -> css selector: a[title='My Account']]
+2023-01-12 23:20:57 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (860ea763ef6831111d9ca5f64769b8b3)] -> css selector: a[title='My Account']]
+2023-01-12 23:20:57 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Login']
+2023-01-12 23:20:57 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Login']
+2023-01-12 23:20:57 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (860ea763ef6831111d9ca5f64769b8b3)] -> xpath: //a[text()='Login']]
+2023-01-12 23:20:59 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (860ea763ef6831111d9ca5f64769b8b3)] -> xpath: //a[text()='Login']]
+2023-01-12 23:20:59 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:20:59 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:20:59 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:20:59 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:20:59 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:20:59 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:21:00 INFO  CustomListener:17 - Test execution has started for : verifyUserIsAbleToSubscribeNewsletterSuccessfully
+2023-01-12 23:21:00 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Subscribe / unsubscribe to newsletter']
+2023-01-12 23:21:00 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Subscribe / unsubscribe to newsletter']
+2023-01-12 23:21:00 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (860ea763ef6831111d9ca5f64769b8b3)] -> xpath: //a[text()='Subscribe / unsubscribe to newsletter']]
+2023-01-12 23:21:01 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (860ea763ef6831111d9ca5f64769b8b3)] -> xpath: //a[text()='Subscribe / unsubscribe to newsletter']]
+2023-01-12 23:21:01 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[value='1']
+2023-01-12 23:21:01 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[value='1']
+2023-01-12 23:21:01 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (860ea763ef6831111d9ca5f64769b8b3)] -> css selector: input[value='1']]
+2023-01-12 23:21:01 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (860ea763ef6831111d9ca5f64769b8b3)] -> css selector: input[value='1']]
+2023-01-12 23:21:01 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[value='Continue']
+2023-01-12 23:21:01 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[value='Continue']
+2023-01-12 23:21:03 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 23:21:03 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.alert-success
+2023-01-12 23:21:03 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (860ea763ef6831111d9ca5f64769b8b3)] -> css selector: div.alert-success]
+2023-01-12 23:21:03 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (860ea763ef6831111d9ca5f64769b8b3)] -> css selector: div.alert-success]
+2023-01-12 23:21:03 INFO  CustomListener:22 - Test execution has passed for : verifyUserIsAbleToSubscribeNewsletterSuccessfully
+2023-01-12 23:21:06 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:21:12 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:21:12 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:21:12 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:21:12 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (537f92395e4f18933c4cfa2f4ec1cd74)] -> css selector: a[title='My Account']]
+2023-01-12 23:21:12 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (537f92395e4f18933c4cfa2f4ec1cd74)] -> css selector: a[title='My Account']]
+2023-01-12 23:21:12 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Login']
+2023-01-12 23:21:12 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Login']
+2023-01-12 23:21:12 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (537f92395e4f18933c4cfa2f4ec1cd74)] -> xpath: //a[text()='Login']]
+2023-01-12 23:21:13 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (537f92395e4f18933c4cfa2f4ec1cd74)] -> xpath: //a[text()='Login']]
+2023-01-12 23:21:13 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:21:13 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:21:13 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:21:13 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:21:14 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:21:14 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:21:15 INFO  CustomListener:17 - Test execution has started for : verifyUserIsAbleToLogoutSuccessfully
+2023-01-12 23:21:15 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: aside#column-right a:last-of-type
+2023-01-12 23:21:15 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: aside#column-right a:last-of-type
+2023-01-12 23:21:15 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (537f92395e4f18933c4cfa2f4ec1cd74)] -> css selector: aside#column-right a:last-of-type]
+2023-01-12 23:21:16 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (537f92395e4f18933c4cfa2f4ec1cd74)] -> css selector: aside#column-right a:last-of-type]
+2023-01-12 23:21:16 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: h1
+2023-01-12 23:21:16 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: h1
+2023-01-12 23:21:16 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (537f92395e4f18933c4cfa2f4ec1cd74)] -> css selector: h1]
+2023-01-12 23:21:16 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (537f92395e4f18933c4cfa2f4ec1cd74)] -> css selector: h1]
+2023-01-12 23:21:16 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text() = 'Continue']
+2023-01-12 23:21:16 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text() = 'Continue']
+2023-01-12 23:21:16 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (537f92395e4f18933c4cfa2f4ec1cd74)] -> xpath: //a[text() = 'Continue']]
+2023-01-12 23:21:18 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (537f92395e4f18933c4cfa2f4ec1cd74)] -> xpath: //a[text() = 'Continue']]
+2023-01-12 23:21:18 INFO  CustomListener:22 - Test execution has passed for : verifyUserIsAbleToLogoutSuccessfully
+2023-01-12 23:21:19 INFO  CustomListener:35 - Test execution has skipped for : verifyUserAccountInfoIsPrefilled
+2023-01-12 23:21:21 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:21:26 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:21:26 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:21:26 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:21:26 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: a[title='My Account']]
+2023-01-12 23:21:26 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: a[title='My Account']]
+2023-01-12 23:21:26 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Login']
+2023-01-12 23:21:26 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Login']
+2023-01-12 23:21:26 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> xpath: //a[text()='Login']]
+2023-01-12 23:21:27 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> xpath: //a[text()='Login']]
+2023-01-12 23:21:27 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:21:27 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:21:27 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:21:27 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:21:28 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:21:28 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:21:35 INFO  CustomListener:17 - Test execution has started for : verifyIfUserIsAbleToEditMyAdressBookSuccessfully
+2023-01-12 23:21:35 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #column-right a:nth-of-type(4)
+2023-01-12 23:21:35 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #column-right a:nth-of-type(4)
+2023-01-12 23:21:35 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: #column-right a:nth-of-type(4)]
+2023-01-12 23:21:36 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: #column-right a:nth-of-type(4)]
+2023-01-12 23:21:36 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:21:36 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:21:36 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:21:36 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:21:36 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:36 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:36 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a:first-of-type
+2023-01-12 23:21:36 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a:first-of-type
+2023-01-12 23:21:36 INFO  WebdriverEvents:102 - clicking on[[[[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:first-of-type]
+2023-01-12 23:21:38 INFO  WebdriverEvents:107 - clicked on[[[[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:first-of-type]
+2023-01-12 23:21:38 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #input-city
+2023-01-12 23:21:38 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #input-city
+2023-01-12 23:21:39 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #input-city
+2023-01-12 23:21:39 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #input-city
+2023-01-12 23:21:39 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:21:39 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:21:40 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 23:21:40 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.alert-success
+2023-01-12 23:21:40 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.alert-success]
+2023-01-12 23:21:40 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.alert-success]
+2023-01-12 23:21:40 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:21:40 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:21:40 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:21:40 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:21:40 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:40 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:40 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:21:40 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:21:40 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:40 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:40 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:21:40 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:21:40 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:40 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:40 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:21:40 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:21:40 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:41 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:41 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a:first-of-type
+2023-01-12 23:21:41 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a:first-of-type
+2023-01-12 23:21:41 INFO  WebdriverEvents:102 - clicking on[[[[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:first-of-type]
+2023-01-12 23:21:42 INFO  WebdriverEvents:107 - clicked on[[[[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:first-of-type]
+2023-01-12 23:21:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #input-city
+2023-01-12 23:21:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #input-city
+2023-01-12 23:21:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #input-city
+2023-01-12 23:21:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #input-city
+2023-01-12 23:21:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:21:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:21:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 23:21:43 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.alert-success
+2023-01-12 23:21:43 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.alert-success]
+2023-01-12 23:21:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.alert-success]
+2023-01-12 23:21:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:21:43 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:21:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:21:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:21:44 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:44 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:21:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:21:44 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:44 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:21:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:21:44 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:44 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a:last-of-type
+2023-01-12 23:21:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a:last-of-type
+2023-01-12 23:21:44 INFO  WebdriverEvents:102 - clicking on[[[[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:last-of-type]
+2023-01-12 23:21:44 INFO  WebdriverEvents:107 - clicked on[[[[[[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:last-of-type]
+2023-01-12 23:21:44 INFO  WebdriverEvents:19 - About to accept an alert
+2023-01-12 23:21:44 INFO  WebdriverEvents:25 - Alert has been accepted
+2023-01-12 23:21:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 23:21:45 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.alert-success
+2023-01-12 23:21:45 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.alert-success]
+2023-01-12 23:21:45 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (aca9cfd3f9866081cd1611b13d6dade4)] -> css selector: div.alert-success]
+2023-01-12 23:21:45 INFO  RetryFailedTests:19 - Running a failed test 1 times
+2023-01-12 23:21:45 INFO  CustomListener:35 - Test execution has skipped for : verifyIfUserIsAbleToEditMyAdressBookSuccessfully
+2023-01-12 23:21:48 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:21:54 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:21:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:21:54 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:21:54 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: a[title='My Account']]
+2023-01-12 23:21:54 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: a[title='My Account']]
+2023-01-12 23:21:54 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Login']
+2023-01-12 23:21:54 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Login']
+2023-01-12 23:21:54 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> xpath: //a[text()='Login']]
+2023-01-12 23:21:55 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> xpath: //a[text()='Login']]
+2023-01-12 23:21:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:21:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:21:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:21:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:21:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:21:56 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:21:57 INFO  CustomListener:17 - Test execution has started for : verifyIfUserIsAbleToEditMyAdressBookSuccessfully
+2023-01-12 23:21:57 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #column-right a:nth-of-type(4)
+2023-01-12 23:21:57 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #column-right a:nth-of-type(4)
+2023-01-12 23:21:57 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: #column-right a:nth-of-type(4)]
+2023-01-12 23:21:58 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: #column-right a:nth-of-type(4)]
+2023-01-12 23:21:58 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:21:58 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:21:58 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:21:58 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:21:58 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:58 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:21:58 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a:first-of-type
+2023-01-12 23:21:58 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a:first-of-type
+2023-01-12 23:21:58 INFO  WebdriverEvents:102 - clicking on[[[[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:first-of-type]
+2023-01-12 23:21:59 INFO  WebdriverEvents:107 - clicked on[[[[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:first-of-type]
+2023-01-12 23:21:59 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #input-city
+2023-01-12 23:21:59 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #input-city
+2023-01-12 23:22:00 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #input-city
+2023-01-12 23:22:00 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #input-city
+2023-01-12 23:22:00 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:22:00 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:22:01 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 23:22:01 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.alert-success
+2023-01-12 23:22:01 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.alert-success]
+2023-01-12 23:22:01 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.alert-success]
+2023-01-12 23:22:01 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:22:01 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:22:01 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:01 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:01 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:01 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:01 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:01 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:01 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:01 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:01 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:02 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:02 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:02 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:02 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a:first-of-type
+2023-01-12 23:22:02 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a:first-of-type
+2023-01-12 23:22:02 INFO  WebdriverEvents:102 - clicking on[[[[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:first-of-type]
+2023-01-12 23:22:03 INFO  WebdriverEvents:107 - clicked on[[[[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:first-of-type]
+2023-01-12 23:22:03 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #input-city
+2023-01-12 23:22:03 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #input-city
+2023-01-12 23:22:03 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #input-city
+2023-01-12 23:22:03 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #input-city
+2023-01-12 23:22:03 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:22:03 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:22:04 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 23:22:04 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.alert-success
+2023-01-12 23:22:04 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.alert-success]
+2023-01-12 23:22:05 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.alert-success]
+2023-01-12 23:22:05 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:22:05 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:22:05 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:05 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:05 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:05 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:05 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:05 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:05 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:05 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:05 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:05 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:05 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:05 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:05 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:05 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:05 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:05 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (455aae1da1fd5088fd05a55aa23bdfca)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:05 INFO  RetryFailedTests:19 - Running a failed test 2 times
+2023-01-12 23:22:05 INFO  CustomListener:35 - Test execution has skipped for : verifyIfUserIsAbleToEditMyAdressBookSuccessfully
+2023-01-12 23:22:09 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:22:13 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:22:13 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:22:13 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:22:13 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: a[title='My Account']]
+2023-01-12 23:22:13 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: a[title='My Account']]
+2023-01-12 23:22:13 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Login']
+2023-01-12 23:22:13 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Login']
+2023-01-12 23:22:13 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> xpath: //a[text()='Login']]
+2023-01-12 23:22:14 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> xpath: //a[text()='Login']]
+2023-01-12 23:22:14 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:22:14 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:22:14 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:22:14 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:22:15 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:22:15 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:22:18 INFO  CustomListener:17 - Test execution has started for : verifyIfUserIsAbleToEditMyAdressBookSuccessfully
+2023-01-12 23:22:18 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #column-right a:nth-of-type(4)
+2023-01-12 23:22:18 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #column-right a:nth-of-type(4)
+2023-01-12 23:22:18 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: #column-right a:nth-of-type(4)]
+2023-01-12 23:22:19 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: #column-right a:nth-of-type(4)]
+2023-01-12 23:22:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:22:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:22:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:19 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:19 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a:first-of-type
+2023-01-12 23:22:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a:first-of-type
+2023-01-12 23:22:19 INFO  WebdriverEvents:102 - clicking on[[[[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:first-of-type]
+2023-01-12 23:22:26 INFO  WebdriverEvents:107 - clicked on[[[[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:first-of-type]
+2023-01-12 23:22:26 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #input-city
+2023-01-12 23:22:26 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #input-city
+2023-01-12 23:22:26 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #input-city
+2023-01-12 23:22:26 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #input-city
+2023-01-12 23:22:26 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:22:26 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:22:27 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 23:22:27 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.alert-success
+2023-01-12 23:22:27 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.alert-success]
+2023-01-12 23:22:28 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.alert-success]
+2023-01-12 23:22:28 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:22:28 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:22:28 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:28 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:28 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:28 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:28 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:28 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:28 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:28 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:28 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:28 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:28 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:28 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:28 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a:first-of-type
+2023-01-12 23:22:28 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a:first-of-type
+2023-01-12 23:22:28 INFO  WebdriverEvents:102 - clicking on[[[[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:first-of-type]
+2023-01-12 23:22:29 INFO  WebdriverEvents:107 - clicked on[[[[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]] -> css selector: a:first-of-type]
+2023-01-12 23:22:29 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #input-city
+2023-01-12 23:22:29 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #input-city
+2023-01-12 23:22:29 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #input-city
+2023-01-12 23:22:29 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #input-city
+2023-01-12 23:22:30 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:22:30 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:22:31 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 23:22:31 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.alert-success
+2023-01-12 23:22:31 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.alert-success]
+2023-01-12 23:22:31 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.alert-success]
+2023-01-12 23:22:31 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:22:31 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.table-responsive table tbody tr
+2023-01-12 23:22:31 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:31 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:31 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:31 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:31 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:31 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:31 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:31 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:31 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:31 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:31 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:31 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:31 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:31 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:31 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:31 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (f226a9475a2118e49592e4615bcebbb9)] -> css selector: div.table-responsive table tbody tr]] -> css selector: td]
+2023-01-12 23:22:31 ERROR CustomListener:28 - Test execution failed and taking screen shot: verifyIfUserIsAbleToEditMyAdressBookSuccessfully
+2023-01-12 23:22:35 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:22:41 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:22:41 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:22:41 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:22:41 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: a[title='My Account']]
+2023-01-12 23:22:41 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: a[title='My Account']]
+2023-01-12 23:22:41 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Login']
+2023-01-12 23:22:41 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Login']
+2023-01-12 23:22:41 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> xpath: //a[text()='Login']]
+2023-01-12 23:22:42 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> xpath: //a[text()='Login']]
+2023-01-12 23:22:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:22:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:22:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:22:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:22:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:22:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:22:44 INFO  CustomListener:17 - Test execution has started for : verifyIfUserIsAbleToAddProductsToWishListSuccessfully
+2023-01-12 23:22:44 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text() = 'Laptops & Notebooks']
+2023-01-12 23:22:44 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text() = 'Laptops & Notebooks']
+2023-01-12 23:22:44 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text() = 'Show All Laptops & Notebooks']
+2023-01-12 23:22:44 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text() = 'Show All Laptops & Notebooks']
+2023-01-12 23:22:44 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> xpath: //a[text() = 'Show All Laptops & Notebooks']]
+2023-01-12 23:22:46 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> xpath: //a[text() = 'Show All Laptops & Notebooks']]
+2023-01-12 23:22:46 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //h2[text()='Laptops & Notebooks']
+2023-01-12 23:22:46 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //h2[text()='Laptops & Notebooks']
+2023-01-12 23:22:46 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> xpath: //h2[text()='Laptops & Notebooks']]
+2023-01-12 23:22:46 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> xpath: //h2[text()='Laptops & Notebooks']]
+2023-01-12 23:22:46 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: select[id='input-sort']
+2023-01-12 23:22:46 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: select[id='input-sort']
+2023-01-12 23:22:46 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: select[id='input-sort']
+2023-01-12 23:22:46 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: select[id='input-sort']
+2023-01-12 23:22:46 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: select[id='input-sort']
+2023-01-12 23:22:46 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: select[id='input-sort']
+2023-01-12 23:22:46 INFO  WebdriverEvents:90 - Finding elementBy.xpath: .//option[normalize-space(.) = "Rating (Highest)"]
+2023-01-12 23:22:46 INFO  WebdriverEvents:96 - Element FoundBy.xpath: .//option[normalize-space(.) = "Rating (Highest)"]
+2023-01-12 23:22:46 INFO  WebdriverEvents:102 - clicking on[[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: select[id='input-sort']]] -> xpath: .//option[normalize-space(.) = "Rating (Highest)"]]
+2023-01-12 23:22:47 INFO  WebdriverEvents:107 - clicked on[[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: select[id='input-sort']]] -> xpath: .//option[normalize-space(.) = "Rating (Highest)"]]
+2023-01-12 23:22:47 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)
+2023-01-12 23:22:47 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)
+2023-01-12 23:22:47 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)]
+2023-01-12 23:22:48 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)]
+2023-01-12 23:22:48 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)
+2023-01-12 23:22:48 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)
+2023-01-12 23:22:48 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)]
+2023-01-12 23:22:48 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)]
+2023-01-12 23:22:50 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: button[onclick="wishlist.add('44');"]
+2023-01-12 23:22:50 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: button[onclick="wishlist.add('44');"]
+2023-01-12 23:22:50 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: button[onclick="wishlist.add('44');"]]
+2023-01-12 23:22:50 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: button[onclick="wishlist.add('44');"]]
+2023-01-12 23:22:52 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #wishlist-total
+2023-01-12 23:22:52 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #wishlist-total
+2023-01-12 23:22:52 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: #wishlist-total]
+2023-01-12 23:22:53 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: #wishlist-total]
+2023-01-12 23:22:53 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:53 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:53 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:53 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:53 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:53 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:53 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:53 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:53 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:53 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:53 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:53 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:53 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:53 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:53 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:53 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:54 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:54 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:54 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:54 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:54 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:54 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:54 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:54 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:54 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:54 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:54 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:54 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:54 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table thead tr td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:22:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:22:55 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:22:55 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a
+2023-01-12 23:22:55 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a
+2023-01-12 23:22:55 INFO  WebdriverEvents:102 - clicking on[[[[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]] -> css selector: a]
+2023-01-12 23:22:56 INFO  WebdriverEvents:107 - clicked on[[[[[[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: table.table tbody tr]] -> css selector: td]] -> css selector: a]
+2023-01-12 23:22:56 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 23:22:57 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.alert-success
+2023-01-12 23:22:57 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: div.alert-success]
+2023-01-12 23:22:57 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (768defb217abe4aba865199f03de5dfe)] -> css selector: div.alert-success]
+2023-01-12 23:22:57 INFO  RetryFailedTests:19 - Running a failed test 1 times
+2023-01-12 23:22:57 INFO  CustomListener:35 - Test execution has skipped for : verifyIfUserIsAbleToAddProductsToWishListSuccessfully
+2023-01-12 23:23:01 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:23:07 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:23:07 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:23:07 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:23:07 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: a[title='My Account']]
+2023-01-12 23:23:07 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: a[title='My Account']]
+2023-01-12 23:23:07 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Login']
+2023-01-12 23:23:07 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Login']
+2023-01-12 23:23:07 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> xpath: //a[text()='Login']]
+2023-01-12 23:23:08 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> xpath: //a[text()='Login']]
+2023-01-12 23:23:08 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:23:08 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:23:08 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:23:08 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:23:08 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:23:08 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:23:10 INFO  CustomListener:17 - Test execution has started for : verifyIfUserIsAbleToAddProductsToWishListSuccessfully
+2023-01-12 23:23:10 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text() = 'Laptops & Notebooks']
+2023-01-12 23:23:10 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text() = 'Laptops & Notebooks']
+2023-01-12 23:23:10 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text() = 'Show All Laptops & Notebooks']
+2023-01-12 23:23:10 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text() = 'Show All Laptops & Notebooks']
+2023-01-12 23:23:10 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> xpath: //a[text() = 'Show All Laptops & Notebooks']]
+2023-01-12 23:23:11 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> xpath: //a[text() = 'Show All Laptops & Notebooks']]
+2023-01-12 23:23:11 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //h2[text()='Laptops & Notebooks']
+2023-01-12 23:23:11 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //h2[text()='Laptops & Notebooks']
+2023-01-12 23:23:11 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> xpath: //h2[text()='Laptops & Notebooks']]
+2023-01-12 23:23:11 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> xpath: //h2[text()='Laptops & Notebooks']]
+2023-01-12 23:23:11 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: select[id='input-sort']
+2023-01-12 23:23:11 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: select[id='input-sort']
+2023-01-12 23:23:11 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: select[id='input-sort']
+2023-01-12 23:23:11 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: select[id='input-sort']
+2023-01-12 23:23:11 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: select[id='input-sort']
+2023-01-12 23:23:11 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: select[id='input-sort']
+2023-01-12 23:23:11 INFO  WebdriverEvents:90 - Finding elementBy.xpath: .//option[normalize-space(.) = "Rating (Highest)"]
+2023-01-12 23:23:11 INFO  WebdriverEvents:96 - Element FoundBy.xpath: .//option[normalize-space(.) = "Rating (Highest)"]
+2023-01-12 23:23:11 INFO  WebdriverEvents:102 - clicking on[[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: select[id='input-sort']]] -> xpath: .//option[normalize-space(.) = "Rating (Highest)"]]
+2023-01-12 23:23:12 INFO  WebdriverEvents:107 - clicked on[[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: select[id='input-sort']]] -> xpath: .//option[normalize-space(.) = "Rating (Highest)"]]
+2023-01-12 23:23:12 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)
+2023-01-12 23:23:12 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)
+2023-01-12 23:23:12 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)]
+2023-01-12 23:23:12 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)]
+2023-01-12 23:23:12 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)
+2023-01-12 23:23:13 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)
+2023-01-12 23:23:13 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)]
+2023-01-12 23:23:13 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)]
+2023-01-12 23:23:15 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: button[onclick="wishlist.add('44');"]
+2023-01-12 23:23:15 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: button[onclick="wishlist.add('44');"]
+2023-01-12 23:23:15 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: button[onclick="wishlist.add('44');"]]
+2023-01-12 23:23:15 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: button[onclick="wishlist.add('44');"]]
+2023-01-12 23:23:17 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #wishlist-total
+2023-01-12 23:23:17 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #wishlist-total
+2023-01-12 23:23:17 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: #wishlist-total]
+2023-01-12 23:23:18 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: #wishlist-total]
+2023-01-12 23:23:18 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:19 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:19 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:19 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:20 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:20 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:21 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:21 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:21 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:21 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:21 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:21 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:21 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:21 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:21 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:21 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:21 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:21 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a
+2023-01-12 23:23:21 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a
+2023-01-12 23:23:21 INFO  WebdriverEvents:102 - clicking on[[[[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]] -> css selector: a]
+2023-01-12 23:23:22 INFO  WebdriverEvents:107 - clicked on[[[[[[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: table.table tbody tr]] -> css selector: td]] -> css selector: a]
+2023-01-12 23:23:22 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 23:23:22 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.alert-success
+2023-01-12 23:23:22 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: div.alert-success]
+2023-01-12 23:23:22 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (4f4f8477569993a990f0fd4977148ef0)] -> css selector: div.alert-success]
+2023-01-12 23:23:22 INFO  RetryFailedTests:19 - Running a failed test 2 times
+2023-01-12 23:23:22 INFO  CustomListener:35 - Test execution has skipped for : verifyIfUserIsAbleToAddProductsToWishListSuccessfully
+2023-01-12 23:23:25 INFO  WebdriverEvents:43 - navigating tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:23:30 INFO  WebdriverEvents:49 - Navigated tohttps://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-01-12 23:23:30 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a[title='My Account']
+2023-01-12 23:23:30 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a[title='My Account']
+2023-01-12 23:23:30 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: a[title='My Account']]
+2023-01-12 23:23:31 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: a[title='My Account']]
+2023-01-12 23:23:31 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text()='Login']
+2023-01-12 23:23:31 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text()='Login']
+2023-01-12 23:23:31 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> xpath: //a[text()='Login']]
+2023-01-12 23:23:32 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> xpath: //a[text()='Login']]
+2023-01-12 23:23:32 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:23:32 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:first-of-type input
+2023-01-12 23:23:32 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:23:32 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: form div.form-group:last-of-type input
+2023-01-12 23:23:32 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: input[type='submit']
+2023-01-12 23:23:32 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: input[type='submit']
+2023-01-12 23:23:33 INFO  CustomListener:17 - Test execution has started for : verifyIfUserIsAbleToAddProductsToWishListSuccessfully
+2023-01-12 23:23:33 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text() = 'Laptops & Notebooks']
+2023-01-12 23:23:33 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text() = 'Laptops & Notebooks']
+2023-01-12 23:23:33 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //a[text() = 'Show All Laptops & Notebooks']
+2023-01-12 23:23:34 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //a[text() = 'Show All Laptops & Notebooks']
+2023-01-12 23:23:34 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> xpath: //a[text() = 'Show All Laptops & Notebooks']]
+2023-01-12 23:23:35 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> xpath: //a[text() = 'Show All Laptops & Notebooks']]
+2023-01-12 23:23:35 INFO  WebdriverEvents:90 - Finding elementBy.xpath: //h2[text()='Laptops & Notebooks']
+2023-01-12 23:23:35 INFO  WebdriverEvents:96 - Element FoundBy.xpath: //h2[text()='Laptops & Notebooks']
+2023-01-12 23:23:35 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> xpath: //h2[text()='Laptops & Notebooks']]
+2023-01-12 23:23:35 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> xpath: //h2[text()='Laptops & Notebooks']]
+2023-01-12 23:23:35 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: select[id='input-sort']
+2023-01-12 23:23:35 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: select[id='input-sort']
+2023-01-12 23:23:35 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: select[id='input-sort']
+2023-01-12 23:23:35 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: select[id='input-sort']
+2023-01-12 23:23:35 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: select[id='input-sort']
+2023-01-12 23:23:35 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: select[id='input-sort']
+2023-01-12 23:23:35 INFO  WebdriverEvents:90 - Finding elementBy.xpath: .//option[normalize-space(.) = "Rating (Highest)"]
+2023-01-12 23:23:35 INFO  WebdriverEvents:96 - Element FoundBy.xpath: .//option[normalize-space(.) = "Rating (Highest)"]
+2023-01-12 23:23:35 INFO  WebdriverEvents:102 - clicking on[[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: select[id='input-sort']]] -> xpath: .//option[normalize-space(.) = "Rating (Highest)"]]
+2023-01-12 23:23:36 INFO  WebdriverEvents:107 - clicked on[[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: select[id='input-sort']]] -> xpath: .//option[normalize-space(.) = "Rating (Highest)"]]
+2023-01-12 23:23:36 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)
+2023-01-12 23:23:36 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)
+2023-01-12 23:23:36 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)]
+2023-01-12 23:23:36 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)]
+2023-01-12 23:23:36 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)
+2023-01-12 23:23:36 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)
+2023-01-12 23:23:36 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)]
+2023-01-12 23:23:36 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)]
+2023-01-12 23:23:38 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: button[onclick="wishlist.add('44');"]
+2023-01-12 23:23:38 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: button[onclick="wishlist.add('44');"]
+2023-01-12 23:23:38 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: button[onclick="wishlist.add('44');"]]
+2023-01-12 23:23:39 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: button[onclick="wishlist.add('44');"]]
+2023-01-12 23:23:41 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: #wishlist-total
+2023-01-12 23:23:41 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: #wishlist-total
+2023-01-12 23:23:41 INFO  WebdriverEvents:102 - clicking on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: #wishlist-total]
+2023-01-12 23:23:42 INFO  WebdriverEvents:107 - clicked on[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: #wishlist-total]
+2023-01-12 23:23:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:42 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:42 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:42 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:42 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:42 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:42 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:42 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:42 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:43 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:43 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:43 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:43 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:43 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:43 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:43 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:43 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:43 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:43 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table thead tr td
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table thead tr td]
+2023-01-12 23:23:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: table.table tbody tr
+2023-01-12 23:23:44 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:44 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:44 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:45 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:45 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:45 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:45 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:45 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:45 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: td
+2023-01-12 23:23:45 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: td
+2023-01-12 23:23:45 INFO  WebdriverEvents:167 - getting text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:45 INFO  WebdriverEvents:173 - Got text from [[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]
+2023-01-12 23:23:45 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: a
+2023-01-12 23:23:45 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: a
+2023-01-12 23:23:45 INFO  WebdriverEvents:102 - clicking on[[[[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]] -> css selector: a]
+2023-01-12 23:23:46 INFO  WebdriverEvents:107 - clicked on[[[[[[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: table.table tbody tr]] -> css selector: td]] -> css selector: a]
+2023-01-12 23:23:46 INFO  WebdriverEvents:90 - Finding elementBy.cssSelector: div.alert-success
+2023-01-12 23:23:46 INFO  WebdriverEvents:96 - Element FoundBy.cssSelector: div.alert-success
+2023-01-12 23:23:46 INFO  WebdriverEvents:167 - getting text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: div.alert-success]
+2023-01-12 23:23:46 INFO  WebdriverEvents:173 - Got text from [[ChromeDriver: chrome on WINDOWS (23b2c7287eb0927d72cf3b2f237fadb4)] -> css selector: div.alert-success]
+2023-01-12 23:23:46 ERROR CustomListener:28 - Test execution failed and taking screen shot: verifyIfUserIsAbleToAddProductsToWishListSuccessfully
