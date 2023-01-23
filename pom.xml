@@ -15,6 +15,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
+		<seleniumJavaVersion>3.141.59</seleniumJavaVersion>
+		<testngVersion>7.3.0</testngVersion>
+		<webdriverManagerVersion>5.0.0</webdriverManagerVersion>
+		<log4jVersion>1.2.17</log4jVersion>
+		<extentReportVersion>5.0.2</extentReportVersion>
+		<apachePOIVersion>3.17</apachePOIVersion>
+		<apachepoi-ooxmlVersion>3.17</apachepoi-ooxmlVersion>
+		<apache-commonsVersion>3.11</apache-commonsVersion>
 	</properties>
 
 	<dependencies>
@@ -22,13 +30,13 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.141.59</version>
+			<version>${seleniumJavaVersion}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.3.0</version>
+			<version>${testngVersion}</version>
 			<scope>compile</scope>
 		</dependency>
 
@@ -36,26 +44,26 @@
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>5.0.0</version>
+			<version>${webdriverManagerVersion}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
-			<version>1.2.17</version>
+			<version>${log4jVersion}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.11</version>
+			<version>${apache-commonsVersion}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
-			<version>5.0.2</version>
+			<version>${extentReportVersion}</version>
 		</dependency>
 
 
@@ -63,7 +71,7 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>3.17</version>
+			<version>${apachePOIVersion}</version>
 		</dependency>
 
 
@@ -71,7 +79,7 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>3.17</version>
+			<version>${apachepoi-ooxmlVersion}</version>
 		</dependency>
 	</dependencies>
 

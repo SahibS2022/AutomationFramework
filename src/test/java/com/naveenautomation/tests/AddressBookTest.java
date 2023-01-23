@@ -21,7 +21,7 @@ public class AddressBookTest extends TestBase {
 	public void setUp() {
 		launchBrowser();
 		sf = new SoftAssert();
-		HomePage homePage = new HomePage();
+		HomePage homePage = new HomePage(driver,true).get();
 		homePage.clickOnMyAccount();
 		AccountLoginPage accountLoginPage = homePage.clickOnLogin();
 		sf.assertEquals(accountLoginPage.getLoginPageTitle(), "Account Login", "Invalid Page!");
@@ -47,7 +47,7 @@ public class AddressBookTest extends TestBase {
 		// delete selected customer using Customer Name
 		addressBookPage.clickToUpdateAddressBookForSelectedCustomer("Daman Singh", By.cssSelector("a:last-of-type"));
 		addressBookPage.deleteSelectedCustomer();
-		sf.assertEquals(addressBookPage.getSuccessBannerUpdateText(), " Your address has been successfully deleted",
+		sf.assertEquals(addressBookPage.getSuccessBannerUpdateText(), "Your address has been successfully deleted",
 				"Deletion Failed!");
 		sf.assertAll();
 

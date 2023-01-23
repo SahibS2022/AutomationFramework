@@ -25,7 +25,7 @@ public class Utils extends TestBase {
 	}
 
 	public static String getRandomEmail() {
-		String suffix = RandomStringUtils.random(5);
+		String suffix = RandomStringUtils.randomNumeric(2);
 		return "testemail_" + suffix + "@gmail.com";
 	}
 

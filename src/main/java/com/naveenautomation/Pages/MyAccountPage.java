@@ -1,98 +1,85 @@
 package com.naveenautomation.Pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-import com.naveenautomation.Base.TestBase;
+import com.naveenautomation.Browsers.ProxyDriver;
 
-public class MyAccountPage extends TestBase {
+public class MyAccountPage extends Page {
+
 	Actions action;
 
-	public MyAccountPage() {
-		PageFactory.initElements(driver, this);
-		action = new Actions(driver);
+	public MyAccountPage(WebDriver wd, boolean waitForPageToLoad) {
+		super(wd, waitForPageToLoad);
+		action = new Actions(wd);
 	}
 
-	@FindBy(xpath = "//a[text() = 'Laptops & Notebooks']")
-	WebElement laptopsAndNotebooksLink;
-
-	@FindBy(xpath = "//a[text() = 'Show All Laptops & Notebooks']")
-	WebElement showAllLaptopsAndNotebooksLink;
-
-	@FindBy(css = "#column-right a:nth-of-type(4)")
-	WebElement addressBookLink;
-
-	@FindBy(xpath = "//h2[text()='My Account']")
-	WebElement myAccountText;
-
-	@FindBy(css = "#column-right a:nth-of-type(3)")
-	WebElement changePasswordLink;
-
-	@FindBy(xpath = "//a[text()='Edit your account information']")
-	WebElement editAccountInfoLink;
-
-	@FindBy(xpath = "//a[text()='Subscribe / unsubscribe to newsletter']")
-	WebElement subscribeOrUnsubscribeToNewsletterLink;
-
-	@FindBy(css = "aside#column-right a:last-of-type")
-	WebElement logoutLink;
-
-	@FindBy(css = "div.alert-success")
-	WebElement passwordChangesSuccessBanner;
-
-	@FindBy(css = "div.alert-success")
-	WebElement telephoneChangesSuccessBanner;
-
-	@FindBy(css = "div.alert-success")
-	WebElement newsletterSubscriptionSuccessBanner;
+	private static final By laptopsAndNotebooksLink = By.xpath("//a[text() = 'Laptops & Notebooks']");
+	private static final By showAllLaptopsAndNotebooksLink = By.xpath("//a[text() = 'Show All Laptops & Notebooks']");
+	private static final By addressBookLink = By.cssSelector("aside#column-right a:nth-of-type(4)");
+	private static final By myAccountText = By.xpath("//h2[text()='My Account']");
+	private static final By changePasswordLink = By.id("column-right a:nth-of-type(3)");
+	private static final By editAccountInfoLink = By.xpath("//a[text()='Edit your account information']");
+	private static final By subscribeOrUnsubscribeToNewsletterLink = By
+			.xpath("//a[text()='Subscribe / unsubscribe to newsletter']");
+	private static final By logoutLink = By.cssSelector("aside#column-right a:last-of-type");
+	private static final By passwordChangesSuccessBanner = By.cssSelector("div.alert-success");
+	private static final By telephoneChangesSuccessBanner = By.cssSelector("div.alert-success");
+	private static final By newsletterSubscriptionSuccessBanner = By.cssSelector("div.alert-success");
 
 	// Method to get the MyAccountPage Title
 	public String getMyAccountText() {
-		return myAccountText.getText();
+		return ((ProxyDriver) wd).getText(myAccountText);
 	}
 
 	public String getMyAccountPageTitle() {
-		return driver.getTitle();
+		return ((ProxyDriver) wd).getTitle();
 	}
 
 	public void actionMoveTolaptopsAndNotebooksLink() {
-		action.moveToElement(laptopsAndNotebooksLink).perform();
+		((ProxyDriver) wd).click(laptopsAndNotebooksLink);
 	}
 
 	public String getTelephoneChangesSuccessMessage() {
-		return telephoneChangesSuccessBanner.getText();
+		return ((ProxyDriver) wd).getText(telephoneChangesSuccessBanner);
 	}
 
 	public String getNewsletterSubscriptionSuccessMessage() {
-		return newsletterSubscriptionSuccessBanner.getText();
+		return ((ProxyDriver) wd).getText(newsletterSubscriptionSuccessBanner);
 	}
 
 	public NewsletterSubscriptionPage clickSubscribeOrUnsubscribeNewsletterLink() {
-		subscribeOrUnsubscribeToNewsletterLink.click();
-		return new NewsletterSubscriptionPage();
+		((ProxyDriver) wd).click(subscribeOrUnsubscribeToNewsletterLink);
+		return new NewsletterSubscriptionPage(wd, true);
 	}
 
 	public AccountLogoutPage clickLogoutLink() {
-		logoutLink.click();
-		return new AccountLogoutPage();
+		((ProxyDriver) wd).click(logoutLink);
+		return new AccountLogoutPage(wd, true);
 	}
 
 	public LaptopsAndNotebooksPage clickShowAllLaptopsAndNoteBooksLink() {
-		showAllLaptopsAndNotebooksLink.click();
-		return new LaptopsAndNotebooksPage();
+		((ProxyDriver) wd).click(showAllLaptopsAndNotebooksLink);
+		return new LaptopsAndNotebooksPage(wd, true);
 	}
 
 	// Method to click the EditYourAccountInfo Link
 	public MyAccountInfoPage clickEditYourAccountInfoLink() {
-		editAccountInfoLink.click();
-		return new MyAccountInfoPage();
+		((ProxyDriver) wd).click(editAccountInfoLink);
+		return new MyAccountInfoPage(wd, true);
 	}
 
 	public AddressBookPage clickAddressBookLink() {
-		addressBookLink.click();
-		return new AddressBookPage();
+		((ProxyDriver) wd).click(addressBookLink);
+		return new AddressBookPage(wd, true);
+	}
+
+	@Override
+	protected void isLoaded() {
+		// TODO Auto-generated method stub
+
 	}
 
 }

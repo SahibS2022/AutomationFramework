@@ -9,6 +9,7 @@ import com.naveenautomation.Base.TestBase;
 import com.naveenautomation.Pages.AccountCreatedPage;
 import com.naveenautomation.Pages.HomePage;
 import com.naveenautomation.Pages.RegisterAccountPage;
+import com.naveenautomation.Utils.Utils;
 
 public class AccountCreatedTest extends TestBase {
 
@@ -18,7 +19,7 @@ public class AccountCreatedTest extends TestBase {
 	@BeforeMethod
 	public void setUp() {
 		launchBrowser();
-		homePage = new HomePage();
+		homePage = new HomePage(driver, true).get();
 		sf = new SoftAssert();
 	}
 
@@ -27,8 +28,7 @@ public class AccountCreatedTest extends TestBase {
 		homePage.clickOnMyAccount();
 		RegisterAccountPage registerAccountPage = homePage.clickOnRegister();
 		sf.assertEquals(registerAccountPage.getTitleOfRegisterAccountPage(), "Register Account", "Invalid Page");
-
-		AccountCreatedPage accountCreatedPage = registerAccountPage.register("Sahib", "New", "sg987@gmail.com",
+		AccountCreatedPage accountCreatedPage = registerAccountPage.register("Sahibs", "New", Utils.getRandomEmail(),
 				"5146214785", "Admin@123", "Admin@123");
 
 		sf.assertEquals(accountCreatedPage.getSuccessAccountCreatedTxt(), "Your Account Has Been Created!",

@@ -1,21 +1,24 @@
 package com.naveenautomation.Pages;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
-import com.naveenautomation.Base.TestBase;
+import com.naveenautomation.Browsers.ProxyDriver;
 
-public class AccountCreatedPage extends TestBase {
+public class AccountCreatedPage extends Page {
 
-	public AccountCreatedPage() {
-		PageFactory.initElements(driver, this);
+	public AccountCreatedPage(WebDriver wd, boolean waitForPageToLoad) {
+		super(wd, waitForPageToLoad);
 	}
 
-	@FindBy(css = "#content h1")
-	WebElement accountCreationSuccessTxt;
+	private static final By accountCreationSuccessTxt = By.cssSelector("#content h1");
 
 	public String getSuccessAccountCreatedTxt() {
-		return accountCreationSuccessTxt.getText();
+		return ((ProxyDriver) wd).getText(accountCreationSuccessTxt);
+	}
+
+	@Override
+	protected void isLoaded() {
+
 	}
 }

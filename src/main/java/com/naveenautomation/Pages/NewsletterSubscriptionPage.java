@@ -1,37 +1,37 @@
 package com.naveenautomation.Pages;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
-import com.naveenautomation.Base.TestBase;
+import com.naveenautomation.Browsers.ProxyDriver;
 
-public class NewsletterSubscriptionPage extends TestBase {
+public class NewsletterSubscriptionPage extends Page {
 
-	public NewsletterSubscriptionPage() {
-		PageFactory.initElements(driver, this);
+	public NewsletterSubscriptionPage(WebDriver wd, boolean waitForPageToLoad) {
+		super(wd, waitForPageToLoad);
 	}
 
-	@FindBy(css = "input[value='1']")
-	WebElement yesRadioBtn;
-
-	@FindBy(css = "input[value='0']")
-	WebElement noRadioBtn;
-
-	@FindBy(css = "input[value='Continue']")
-	WebElement continueBtn;
+	private static final By yesRadioBtn = By.cssSelector("input[value='1']");
+	private static final By noRadioBtn = By.cssSelector("input[value='0']");
+	private static final By continueBtn = By.cssSelector("input[value='Continue']");
 
 	public void subscribeNewsletter() {
-		yesRadioBtn.click();
+		((ProxyDriver) wd).click(yesRadioBtn);
 	}
 
 	public void unSubscribeNewsletter() {
-		noRadioBtn.click();
+		((ProxyDriver) wd).click(noRadioBtn);
 	}
 
 	public MyAccountPage clickContinueBtnNewsletter() {
-		continueBtn.submit();
-		return new MyAccountPage();
+		((ProxyDriver) wd).submit(continueBtn);
+		return new MyAccountPage(wd, true);
+	}
+
+	@Override
+	protected void isLoaded() {
+		// TODO Auto-generated method stub
+
 	}
 
 }

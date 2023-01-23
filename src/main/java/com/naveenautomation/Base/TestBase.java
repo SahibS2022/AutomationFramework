@@ -3,12 +3,12 @@ package com.naveenautomation.Base;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.naveenautomation.Browsers.Browsers;
+import com.naveenautomation.Browsers.ProxyDriver;
 import com.naveenautomation.Listeners.WebdriverEvents;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -24,28 +24,26 @@ public class TestBase {
 
 		switch (DEFAULT_BROWSER) {
 		case GOOGLE_CHROME:
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			driver = new ProxyDriver(WebDriverManager.chromedriver().create());
 			break;
 
 		case EDGE:
-			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			driver = new ProxyDriver(WebDriverManager.edgedriver().create());
 			break;
 
 		case FIREFOX:
-			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
+			driver = new ProxyDriver(WebDriverManager.firefoxdriver().create());
 			break;
 
 		default:
 			System.out.println("Invalid Browser!");
 			break;
 		}
-		eventFiringWebDriver = new EventFiringWebDriver(driver);
-		events = new WebdriverEvents();
-		eventFiringWebDriver.register(events);
-		driver = eventFiringWebDriver;
+		/*
+		 * eventFiringWebDriver = new EventFiringWebDriver(driver); events = new
+		 * WebdriverEvents(); eventFiringWebDriver.register(events); driver =
+		 * eventFiringWebDriver;
+		 */
 
 		/*
 		 * eventFiringWebDriver.register(events); driver = eventFiringWebDriver;
@@ -60,9 +58,6 @@ public class TestBase {
 
 		// Manage the script load timeout
 		driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
-
-		// Launch a page
-		driver.get("https://naveenautomationlabs.com/opencart/index.php?route=common/home");
 
 	}
 

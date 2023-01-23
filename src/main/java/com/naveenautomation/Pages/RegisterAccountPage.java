@@ -1,71 +1,55 @@
 package com.naveenautomation.Pages;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
-import com.naveenautomation.Base.TestBase;
+import com.naveenautomation.Browsers.ProxyDriver;
 
-public class RegisterAccountPage extends TestBase {
+public class RegisterAccountPage extends Page {
 
-	public RegisterAccountPage() {
-		PageFactory.initElements(driver, this);
+	public RegisterAccountPage(WebDriver wd, boolean waitForPageToLoad) {
+		super(wd, waitForPageToLoad);
 	}
 
-	@FindBy(id = "input-firstname")
-	WebElement fName;
-
-	@FindBy(id = "input-lastname")
-	WebElement lName;
-
-	@FindBy(id = "input-email")
-	WebElement email;
-
-	@FindBy(id = "input-telephone")
-	WebElement telephone;
-
-	@FindBy(id = "input-password")
-	WebElement password;
-
-	@FindBy(id = "input-confirm")
-	WebElement confirmPassword;
-
-	@FindBy(xpath = "//input[@type='checkbox']")
-	WebElement privacyPolicyCheckBox;
-
-	@FindBy(xpath = "//input[@type='submit']")
-	WebElement continueBtn;
+	private static final By fName = By.id("input-firstname");
+	private static final By lName = By.id("input-lastname");
+	private static final By email = By.id("input-email");
+	private static final By telephone = By.id("input-telephone");
+	private static final By password = By.id("input-password");
+	private static final By confirmPassword = By.id("input-confirm");
+	private static final By privacyPolicyCheckBox = By.xpath("//input[@type='checkbox']");
+	private static final By continueBtn = By.xpath("//input[@type='submit']");
 
 	private void enterFirstName(String fname) {
-		fName.sendKeys(fname);
+		((ProxyDriver) wd).sendKeys(fName, fname);
 	}
 
 	private void enterLastName(String lname) {
-		lName.sendKeys(lname);
+		((ProxyDriver) wd).sendKeys(lName, lname);
 	}
 
 	private void enterEmail(String emailInput) {
-		email.sendKeys(emailInput);
+		((ProxyDriver) wd).sendKeys(email, emailInput);
 	}
 
 	private void enterPhoneNumber(String phone) {
-		telephone.sendKeys(phone);
+		((ProxyDriver) wd).sendKeys(telephone, phone);
 	}
 
 	private void enterPassword(String paswrd) {
-		password.sendKeys(paswrd);
+		((ProxyDriver) wd).sendKeys(password, paswrd);
 	}
 
 	private void enterConfirmPwd(String confirmpaswrd) {
-		confirmPassword.sendKeys(confirmpaswrd);
+		((ProxyDriver) wd).sendKeys(confirmPassword, confirmpaswrd);
 	}
 
 	private void clickPrivacyPolicy() {
-		privacyPolicyCheckBox.click();
+		((ProxyDriver) wd).click(privacyPolicyCheckBox);
 	}
-	
+
 	public String getTitleOfRegisterAccountPage() {
-		return driver.getTitle();
+		return wd.getTitle();
 	}
 
 	public AccountCreatedPage register(String fname, String lname, String emailInput, String phone, String paswrd,
@@ -77,8 +61,14 @@ public class RegisterAccountPage extends TestBase {
 		enterPassword(paswrd);
 		enterConfirmPwd(confirmpaswrd);
 		clickPrivacyPolicy();
-		continueBtn.submit();
-		return new AccountCreatedPage();
+		((ProxyDriver) wd).submit(continueBtn);
+		return new AccountCreatedPage(wd, true);
+	}
+
+	@Override
+	protected void isLoaded() {
+		// TODO Auto-generated method stub
+
 	}
 
 }

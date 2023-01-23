@@ -24,7 +24,7 @@ public class MyAccountInfoTest extends TestBase {
 	public void setUp() {
 		launchBrowser();
 		sf = new SoftAssert();
-		HomePage homePage = new HomePage();
+		HomePage homePage = new HomePage(driver,true).get();
 		homePage.clickOnMyAccount();
 		accountLoginPage = homePage.clickOnLogin();
 	}

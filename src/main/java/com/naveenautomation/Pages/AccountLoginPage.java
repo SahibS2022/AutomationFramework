@@ -1,48 +1,48 @@
 package com.naveenautomation.Pages;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
-import com.naveenautomation.Base.TestBase;
+import com.naveenautomation.Browsers.ProxyDriver;
 
-public class AccountLoginPage extends TestBase {
-	public AccountLoginPage() {
-		PageFactory.initElements(driver, this);
+public class AccountLoginPage extends Page {
+
+	public AccountLoginPage(WebDriver wd, boolean waitForPageToLoad) {
+		super(wd, waitForPageToLoad);
+		// TODO Auto-generated constructor stub
 	}
 
-	@FindBy(css = "form div.form-group:first-of-type input")
-	WebElement emailInputField;
+	private static final By emailInputField = By.cssSelector("form div.form-group:first-of-type input");
+	private static final By passwordInputField = By.cssSelector("form div.form-group:last-of-type input");
+	private static final By loginBtn = By.cssSelector("input[type='submit']");
+	// private static final By continueBtn = By.xpath("//a[text()='Continue']");
 
-	@FindBy(css = "form div.form-group:last-of-type input")
-	WebElement passwordInputField;
-
-	@FindBy(css = "input[type='submit']")
-	WebElement loginBtn;
-
-	@FindBy(xpath = "//a[text()='Continue']")
-	WebElement continueBtn;
-
-	//Method to enter Email Input Field Value
+	// Method to enter Email Input Field Value
 	public void enterEmailInputField(String email) {
-		emailInputField.sendKeys(email);
+		((ProxyDriver) wd).sendKeys(emailInputField, email);
 	}
-	
+
 	public String getLoginPageTitle() {
-		return driver.getTitle();
+		return ((ProxyDriver) wd).getTitle();
 	}
 
-	//Method to enter Password Input Field Value
+	// Method to enter Password Input Field Value
 	public void enterPasswordInputField(String password) {
-		passwordInputField.sendKeys(password);
+		((ProxyDriver) wd).sendKeys(passwordInputField, password);
 	}
 
-	//Method for User Login
+	// Method for User Login
 	public MyAccountPage login(String email, String password) {
 		enterEmailInputField(email);
 		enterPasswordInputField(password);
-		loginBtn.submit();
-		return new MyAccountPage();
+		((ProxyDriver) wd).submit(loginBtn);
+		return new MyAccountPage(wd, true);
+
+	}
+
+	@Override
+	protected void isLoaded() {
+		// TODO Auto-generated method stub
 
 	}
 

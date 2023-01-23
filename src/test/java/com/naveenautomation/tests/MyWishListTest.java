@@ -23,7 +23,7 @@ public class MyWishListTest extends TestBase {
 	public void setUp() {
 		launchBrowser();
 		sf = new SoftAssert();
-		HomePage homePage = new HomePage();
+		HomePage homePage = new HomePage(driver, true).get();
 		homePage.clickOnMyAccount();
 		AccountLoginPage accountLoginPage = homePage.clickOnLogin();
 		sf.assertEquals(accountLoginPage.getLoginPageTitle(), "Account Login", "Invalid Page!");
@@ -40,7 +40,6 @@ public class MyWishListTest extends TestBase {
 		laptopsAndNotebooksPage.clickSecondAddToWishListButton();
 		sleep();
 		laptopsAndNotebooksPage.clickThirdAddToWishListButton();
-		sleep();
 		MyWishListPage myWishListPage = laptopsAndNotebooksPage.clickOnWishListLink();
 		String firstProductName = myWishListPage.getElementFromTheTable("MacBook Air", MyWishList.PRODUCTNAME)
 				.getText();
@@ -59,7 +58,7 @@ public class MyWishListTest extends TestBase {
 		sf.assertEquals(thirdProductPrice, "$1,202.00", "Invalid Product!");
 		myWishListPage.removeProduct(thirdProductName, MyWishList.ACTION, By.cssSelector("a"));
 		sf.assertEquals(myWishListPage.getTextForProductDeletedSuccessfully(),
-				"Success: You have modified your wish list!", "Deletion Failed!");
+				"Success: You have modified your wish list!\n×", "Deletion Failed!");
 		sf.assertAll();
 
 	}

@@ -1,71 +1,66 @@
 package com.naveenautomation.Pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 
-import com.naveenautomation.Base.TestBase;
+import com.naveenautomation.Browsers.ProxyDriver;
 
-public class LaptopsAndNotebooksPage extends TestBase {
+public class LaptopsAndNotebooksPage extends Page {
 	Actions action;
 
-	public LaptopsAndNotebooksPage() {
-		PageFactory.initElements(driver, this);
-		action = new Actions(driver);
+	public LaptopsAndNotebooksPage(WebDriver wd, boolean waitForPageToLoad) {
+		super(wd, waitForPageToLoad);
+		action = new Actions(wd);
 	}
 
-	@FindBy(xpath = "//h2[text()='Laptops & Notebooks']")
-	WebElement laptopsAndNotebooksText;
-
-	@FindBy(css = "select[id='input-sort']")
-	WebElement sortBySelectBox;
-
-	@FindBy(css = "div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)")
-	WebElement firstProductAddToWishListBtn;
-
-	@FindBy(css = "div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)")
-	WebElement secondProductAddToWishListBtn;
-
-	@FindBy(css = "button[onclick=\"wishlist.add('44');\"]")
-	WebElement thirdProductAddToWishListBtn;
-
-	@FindBy(css = "#wishlist-total")
-	WebElement wishListLink;
-
-	@FindBy(css = "div.alert-success")
-	WebElement productAddedScucessBanner;
+	private static final By laptopsAndNotebooksText = By.xpath("//h2[text()='Laptops & Notebooks']");
+	private static final By sortBySelectBox = By.cssSelector("select[id='input-sort']");
+	private static final By firstProductAddToWishListBtn = By
+			.cssSelector("div.row:nth-of-type(4)>div.product-layout.product-grid:first-of-type button:nth-of-type(2)");
+	private static final By secondProductAddToWishListBtn = By
+			.cssSelector("div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(2) button:nth-of-type(2)");
+	private static final By thirdProductAddToWishListBtn = By
+			.cssSelector("div.row:nth-of-type(4)>div.product-layout.product-grid:nth-of-type(3) button:nth-of-type(2)");
+	private static final By wishListLink = By.id("wishlist-total");
+	private static final By productAddedScucessBanner = By.cssSelector("div.alert-success");
 
 	public String getLaptopsAndNotebooksText() {
-		return laptopsAndNotebooksText.getText();
+		return ((ProxyDriver) wd).getText(laptopsAndNotebooksText);
 	}
 
 	public String getProductAddedSuccessMessage() {
-		return productAddedScucessBanner.getText();
+		return ((ProxyDriver) wd).getText(productAddedScucessBanner);
 	}
 
 	public void clickFirstAddToWishListButton() {
-		firstProductAddToWishListBtn.click();
+		((ProxyDriver) wd).click(firstProductAddToWishListBtn);
 	}
 
 	public void clickSecondAddToWishListButton() {
-		secondProductAddToWishListBtn.click();
+		((ProxyDriver) wd).click(secondProductAddToWishListBtn);
 	}
 
 	public void clickThirdAddToWishListButton() {
-		thirdProductAddToWishListBtn.click();
+		((ProxyDriver) wd).click(thirdProductAddToWishListBtn);
 	}
 
 	public MyWishListPage clickOnWishListLink() {
-		wishListLink.click();
-		return new MyWishListPage();
+		((ProxyDriver) wd).click(wishListLink);
+		return new MyWishListPage(wd, true);
 
 	}
 
 	// Method to select element by visible text
 	public void selectRatingHighestByVisibleText() {
-		Select sc = new Select(sortBySelectBox);
-		sc.selectByVisibleText("Rating (Highest)");
+		((ProxyDriver) wd).selectFromDropDownByVisibleText(sortBySelectBox, "Rating (Highest)");
+	}
+
+	@Override
+	protected void isLoaded() {
+		// TODO Auto-generated method stub
+
 	}
 }

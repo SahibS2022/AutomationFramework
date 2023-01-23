@@ -3,37 +3,35 @@ package com.naveenautomation.Pages;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-import com.naveenautomation.Base.TestBase;
+import com.naveenautomation.Browsers.ProxyDriver;
 
-public class MyWishListPage extends TestBase {
+public class MyWishListPage extends Page {
 
-	public MyWishListPage() {
-		PageFactory.initElements(driver, this);
+	public MyWishListPage(WebDriver wd, boolean waitForPageToLoad) {
+		super(wd, waitForPageToLoad);
 	}
 
-	@FindBy(css = "div.alert-success")
-	WebElement successBannerForProductDeleted;
+	private static final By successBannerForProductDeleted = By.cssSelector("div.alert-success");
 
 	public void removeProduct(String productName, MyWishList column, By locator) {
-	getElementFromTheTable(productName, column).findElement(locator).click();
+		getElementFromTheTable(productName, column).findElement(locator).click();
 	}
 
 	public String getTextForProductDeletedSuccessfully() {
-		return successBannerForProductDeleted.getText();
+		return ((ProxyDriver) wd).getText(successBannerForProductDeleted);
 	}
 
 	public String getMyWishListPageTitle() {
-		return driver.getTitle();
+		return ((ProxyDriver) wd).getTitle();
 	}
 
 	public WebElement getElementFromTheTable(String ProductName, MyWishList column) {
 
 		int columnIndex = getIndexForColumn(column);
-		List<WebElement> rowsInTable = driver.findElements(By.cssSelector("table.table tbody tr"));
+		List<WebElement> rowsInTable = wd.findElements(By.cssSelector("table.table tbody tr"));
 		for (WebElement webElement : rowsInTable) {
 			List<WebElement> cells = webElement.findElements(By.cssSelector("td"));
 			String productName = cells.get(1).getText();
@@ -46,7 +44,7 @@ public class MyWishListPage extends TestBase {
 	}
 
 	public int getIndexForColumn(MyWishList column) {
-		List<WebElement> tableHeaders = driver.findElements(By.cssSelector("table.table thead tr td"));
+		List<WebElement> tableHeaders = wd.findElements(By.cssSelector("table.table thead tr td"));
 		for (WebElement webElement : tableHeaders) {
 			if (webElement.getText().equals(column.getName())) {
 				return tableHeaders.indexOf(webElement);
@@ -58,11 +56,7 @@ public class MyWishListPage extends TestBase {
 
 	public enum MyWishList {
 
-		IMAGE("Image"), 
-		PRODUCTNAME("Product Name"),
-		MODEL("Model"), 
-		STOCK("Stock"), 
-		UNITPRICE("Unit Price"),
+		IMAGE("Image"), PRODUCTNAME("Product Name"), MODEL("Model"), STOCK("Stock"), UNITPRICE("Unit Price"),
 		ACTION("Action");
 
 		String name;
@@ -74,6 +68,12 @@ public class MyWishListPage extends TestBase {
 		public String getName() {
 			return name;
 		}
+
+	}
+
+	@Override
+	protected void isLoaded() {
+		// TODO Auto-generated method stub
 
 	}
 

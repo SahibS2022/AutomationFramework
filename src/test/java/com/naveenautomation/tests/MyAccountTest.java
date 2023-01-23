@@ -22,7 +22,7 @@ public class MyAccountTest extends TestBase {
 	public void setUp() {
 		launchBrowser();
 		sf = new SoftAssert();
-		homePage = new HomePage();
+		homePage = new HomePage(driver,true).get();
 		homePage.clickOnMyAccount();
 		AccountLoginPage accountLoginPage = homePage.clickOnLogin();
 		myAccountPage = accountLoginPage.login("sg1@gmail.com", "Admin@123");
