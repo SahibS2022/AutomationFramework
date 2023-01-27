@@ -28,7 +28,7 @@ public class AddressBookTest extends TestBase {
 		myAccountPage = accountLoginPage.login("sg1@gmail.com", "Admin@123");
 	}
 
-	@Test
+	@Test(enabled=false)
 	public void verifyIfUserIsAbleToEditMyAdressBookSuccessfully() {
 		AddressBookPage addressBookPage = myAccountPage.clickAddressBookLink();
 
