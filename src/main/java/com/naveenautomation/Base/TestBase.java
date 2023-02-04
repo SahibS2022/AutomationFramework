@@ -2,9 +2,13 @@ package com.naveenautomation.Base;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.naveenautomation.Browsers.Browsers;
@@ -15,24 +19,35 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 
-	//test multiconfig with jenkins periodically
+	// test multiconfig with jenkins periodically
 	public static WebDriver driver;
-	public Browsers DEFAULT_BROWSER = Browsers.GOOGLE_CHROME;
+//	public Browsers DEFAULT_BROWSER = Browsers.GOOGLE_CHROME;
+	public String DEFAULT_BROWSER = getParameter("browser");
 	public static WebdriverEvents events;
 	public EventFiringWebDriver eventFiringWebDriver;
 
 	public void launchBrowser() {
 
+		// Desired Capabilities for browser
+		DesiredCapabilities capabilities = new DesiredCapabilities();
+
 		switch (DEFAULT_BROWSER) {
-		case GOOGLE_CHROME:
+		case "chrome":
+			capabilities.setBrowserName("chrome");
+			capabilities.setPlatform(Platform.WINDOWS);
+			// add arguments for chromeOptions
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--incognito");
+			options.addArguments("start-maximized");
+			options.merge(capabilities);// merging capabilities with options
 			driver = new ProxyDriver(WebDriverManager.chromedriver().create());
 			break;
 
-		case EDGE:
+		case "edge":
 			driver = new ProxyDriver(WebDriverManager.edgedriver().create());
 			break;
 
-		case FIREFOX:
+		case "FIREFOX":
 			driver = new ProxyDriver(WebDriverManager.firefoxdriver().create());
 			break;
 
@@ -65,6 +80,17 @@ public class TestBase {
 	public void quitBrowser() {
 		// closing the browser
 		driver.quit();
+	}
+
+	private String getParameter(String name) {
+		String value = System.getProperty(name);
+		if (value == null)
+			throw new RuntimeException(name + " is not a parameter!");
+
+		if (value.isEmpty())
+			throw new RuntimeException(name + " is empty!");
+
+		return value;
 	}
 
 }
