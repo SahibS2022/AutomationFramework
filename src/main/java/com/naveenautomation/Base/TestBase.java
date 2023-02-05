@@ -22,7 +22,7 @@ public class TestBase {
 	// test multiconfig with jenkins periodically
 	public static WebDriver driver;
 //	public Browsers DEFAULT_BROWSER = Browsers.GOOGLE_CHROME;
-	public String DEFAULT_BROWSER = getParameter("browser");
+	public Browsers DEFAULT_BROWSER = getBrowser();
 	public static WebdriverEvents events;
 	public EventFiringWebDriver eventFiringWebDriver;
 
@@ -32,7 +32,7 @@ public class TestBase {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 
 		switch (DEFAULT_BROWSER) {
-		case "chrome":
+		case GOOGLE_CHROME:
 			capabilities.setBrowserName("chrome");
 			capabilities.setPlatform(Platform.WINDOWS);
 			// add arguments for chromeOptions
@@ -43,11 +43,11 @@ public class TestBase {
 			driver = new ProxyDriver(WebDriverManager.chromedriver().create());
 			break;
 
-		case "edge":
+		case EDGE:
 			driver = new ProxyDriver(WebDriverManager.edgedriver().create());
 			break;
 
-		case "FIREFOX":
+		case FIREFOX:
 			driver = new ProxyDriver(WebDriverManager.firefoxdriver().create());
 			break;
 
@@ -82,15 +82,19 @@ public class TestBase {
 		driver.quit();
 	}
 
-	private String getParameter(String name) {
-		String value = System.getProperty(name);
-		if (value == null)
-			throw new RuntimeException(name + " is not a parameter!");
-
-		if (value.isEmpty())
-			throw new RuntimeException(name + " is empty!");
-
-		return value;
+//	private String getParameter(String name) {
+//		String value = System.getProperty(name);
+//		if (value == null)
+//			throw new RuntimeException(name + " is not a parameter!");
+//
+//		if (value.isEmpty())
+//			throw new RuntimeException(name + " is empty!");
+//
+//		return value;
+//	}
+	public Browsers getBrowser() {
+		String browserName = System.getProperty(System.getProperty("browser"));
+		return Browsers.getBrowserByName(browserName);
 	}
 
 }

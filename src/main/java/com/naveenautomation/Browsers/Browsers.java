@@ -15,4 +15,19 @@ public enum Browsers {
 	public String getName() {
 		return name;
 	}
+	public static Browsers getBrowserByName(String browserName) {
+
+		Browsers browser = null;
+
+		Browsers[] allBrowser = Browsers.values();
+
+		for (Browsers browserElement : allBrowser) {
+			if (browserElement.toString().equals(browserName)) {
+				browser = browserElement;
+				break;
+			}
+		}
+
+		return browser;
+	}
 }
