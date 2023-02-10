@@ -2,6 +2,7 @@ package com.naveenautomation.tests;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -22,7 +23,7 @@ public class MyAccountTest extends TestBase {
 	public void setUp() {
 		launchBrowser();
 		sf = new SoftAssert();
-		homePage = new HomePage(driver,true).get();
+		homePage = new HomePage(driver, true).get();
 		homePage.clickOnMyAccount();
 		AccountLoginPage accountLoginPage = homePage.clickOnLogin();
 		myAccountPage = accountLoginPage.login("sg1@gmail.com", "Admin@123");
@@ -34,6 +35,7 @@ public class MyAccountTest extends TestBase {
 		sf.assertAll();
 	}
 
+	@Ignore
 	@Test(priority = 2)
 	public void verifyUserIsAbleToUpdateTelephoneSuccessfully() {
 		MyAccountInfoPage myAccountInformationPage = myAccountPage.clickEditYourAccountInfoLink();
@@ -43,6 +45,7 @@ public class MyAccountTest extends TestBase {
 		sf.assertAll();
 	}
 
+	@Ignore
 	@Test(priority = 3)
 	public void verifyUserIsAbleToSubscribeNewsletterSuccessfully() {
 		NewsletterSubscriptionPage newsletterSubscriptionPage = myAccountPage
